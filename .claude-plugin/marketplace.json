@@ -1,0 +1,20 @@
+{
+  "name": "hono-skill",
+  "owner": {
+    "name": "Yusuke Wada",
+    "email": "yusuke@kamawada.com"
+  },
+  "metadata": {
+    "description": "Hono development skill using Hono CLI",
+    "version": "0.0.1"
+  },
+  "plugins": [
+    {
+      "name": "hono-skill",
+      "description": "Efficiently develop Hono applications using Hono CLI. Supports documentation search, API reference lookup, request testing, and bundle optimization.",
+      "source": "./",
+      "strict": false,
+      "skills": ["skills/hono"]
+    }
+  ]
+}

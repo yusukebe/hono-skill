@@ -1,0 +1,11 @@
+# Test directory
+sandbox/
+
+# Local Claude settings
+.claude/
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
