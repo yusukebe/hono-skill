@@ -14,7 +14,7 @@
       "description": "Efficiently develop Hono applications using Hono CLI. Supports documentation search, API reference lookup, request testing, and bundle optimization.",
       "source": "./",
       "strict": false,
-      "skills": ["skills/hono"]
+      "skills": ["./skills/hono"]
     }
   ]
 }
