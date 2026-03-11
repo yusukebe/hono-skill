@@ -1,6 +1,6 @@
 ---
 name: hono
-description: Efficiently develop Hono applications using Hono CLI. Supports documentation search, API reference lookup, request testing, and bundle optimization.
+description: Efficiently develop Hono applications using Hono CLI. Supports documentation search, API reference lookup, request testing, and bundle optimization. Use when the user mentions Hono, Hono CLI, @hono/cli, or needs help building lightweight web APIs, edge-compatible applications, or Cloudflare Workers projects.
 ---
 
 # Hono Skill
@@ -77,10 +77,10 @@ hono optimize [entry] -t cloudflare-workers
 
 ## Development Workflow
 
-1. **Research**: Use `hono search` → `hono docs` to investigate APIs and features
-2. **Implement**: Write the code
-3. **Test**: Use `hono request` to test endpoints
-4. **Optimize**: Use `hono optimize` for production builds when needed
+1. **Research**: Use `hono search` → `hono docs` to investigate APIs and features. Verify search returns relevant results before proceeding.
+2. **Implement**: Write the code based on documentation findings.
+3. **Test**: Use `hono request` to test endpoints. Confirm response status and body match expectations.
+4. **Optimize**: Use `hono optimize` for production builds when needed. Verify the output file is generated successfully.
 
 ## Guidelines
 
@@ -88,3 +88,5 @@ hono optimize [entry] -t cloudflare-workers
 - Use `--pretty` flag with `hono search` (default output is JSON)
 - `hono request` works without starting an HTTP server
 - Search for middleware usage with `hono search "middleware name"`
+- If `hono search` returns no results, try broader terms or check `hono docs` for the top-level API index
+- If `hono request` fails, verify the file path and route pattern match the application entry point
