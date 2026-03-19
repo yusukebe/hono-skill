@@ -1,6 +1,6 @@
 ---
 name: hono
-description: Build Hono web applications with inline API reference, routing patterns, middleware, JSX, validation, testing, and streaming. Uses Hono CLI only for documentation search and request testing.
+description: Use when building Hono web applications or when the user asks about Hono APIs, routing, middleware, JSX, validation, testing, or streaming. TRIGGER when code imports from 'hono' or 'hono/*', or user mentions Hono. Use `npx hono search` and `npx hono docs` to look up unfamiliar Hono APIs. Use `npx hono request` to test endpoints.
 ---
 
 # Hono Skill
