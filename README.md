@@ -1,6 +1,6 @@
 # Hono Skill
 
-Agent Skill for developing Hono applications efficiently using [Hono CLI](https://github.com/honojs/cli).
+Agent Skill for developing Hono applications. Provides inline API reference and uses [Hono CLI](https://github.com/honojs/cli) minimally for documentation search and request testing.
 
 ## Installation
 
@@ -18,18 +18,17 @@ Agent Skill for developing Hono applications efficiently using [Hono CLI](https:
 
 ### hono
 
-Develop Hono applications efficiently using Hono CLI (`@hono/cli`).
+Build Hono web applications with inline API knowledge.
 
 **Features:**
 
-- Documentation search (`hono search`)
-- API reference lookup (`hono docs`)
-- Request testing without server startup (`hono request`)
-- Bundle optimization (`hono optimize`)
+- Inline Hono API reference (routing, context, middleware, JSX, validation, RPC, streaming, helpers)
+- Documentation search via `hono search` / `hono docs`
+- Request testing via `hono request`
 
 ## Requirements
 
-- [Hono CLI](https://github.com/honojs/cli) - Can be used via `npx @hono/cli` without installation
+- [Hono CLI](https://github.com/honojs/cli) - Install as devDependency (`npm install -D @hono/cli`)
 
 ## License
 
