@@ -361,6 +361,8 @@ In `tsconfig.json`:
 
 Or use pragma: `/** @jsxImportSource hono/jsx */`
 
+**Important:** Files using JSX must have a `.tsx` extension. Rename `.ts` to `.tsx` or the compiler will fail.
+
 ### Components
 
 ```tsx
