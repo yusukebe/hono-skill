@@ -5,13 +5,13 @@
     "email": "yusuke@kamawada.com"
   },
   "metadata": {
-    "description": "Hono development skill using Hono CLI",
+    "description": "Hono development skill with inline API reference and MCP documentation server",
     "version": "0.0.1"
   },
   "plugins": [
     {
       "name": "hono-skill",
-      "description": "Efficiently develop Hono applications using Hono CLI. Supports documentation search, API reference lookup, request testing, and bundle optimization.",
+      "description": "Efficiently develop Hono applications with inline API reference and request testing. Optionally connect the hono-docs MCP server for the latest documentation.",
       "source": "./",
       "strict": true,
       "skills": ["./skills/hono"]
