@@ -14,6 +14,12 @@ Agent Skill for developing Hono applications. Provides inline API reference and 
 /plugin install hono-skill@hono
 ```
 
+### skills.sh
+
+```bash
+npx skills add yusukebe/hono-skill
+```
+
 ## Skill
 
 ### hono
