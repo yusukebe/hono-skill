@@ -21,7 +21,12 @@ npx hono request [file] -P /path
 npx hono request [file] -X POST -P /api/users -d '{"name": "test"}'
 ```
 
-**Note:** Do not pass credentials directly in CLI arguments. Use environment variables for sensitive values. `hono request` does not support Cloudflare Workers bindings (KV, D1, R2, etc.). When bindings are required, use Wrangler instead.
+**Note:** Do not pass credentials directly in CLI arguments. Use environment variables for sensitive values. `hono request` does not support Cloudflare Workers bindings (KV, D1, R2, etc.). When bindings are required, use `workers-fetch` instead:
+
+```bash
+npx workers-fetch /path
+npx workers-fetch -X POST -H "Content-Type:application/json" -d '{"name":"test"}' /api/users
+```
 
 ---
 
